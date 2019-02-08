@@ -66,10 +66,10 @@
                                     <thead>
                                         <tr>
                                             <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
+                                            <th>Email</th>
+                                            <th>Contact Number</th>
+                                            <th>Address</th>
+                                            <th>Status</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -80,29 +80,7 @@
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
                                             <td>61</td>
-                                            <td>2011/04/25</td>
-                                            <td>
-                                                <button class="btn btn-primary btn-circle"><i class="fas fa-edit"></i></button>
-                                                <button class="btn btn-danger btn-circle"><i class="fas fa-trash"></i></button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>63</td>
-                                            <td>2011/07/25</td>
-                                            <td>
-                                                <button class="btn btn-primary btn-circle"><i class="fas fa-edit"></i></button>
-                                                <button class="btn btn-danger btn-circle"><i class="fas fa-trash"></i></button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ashton Cox</td>
-                                            <td>Junior Technical Author</td>
-                                            <td>San Francisco</td>
-                                            <td>66</td>
-                                            <td>2009/01/12</td>
+                                            <td>Lorem</td>
                                             <td>
                                                 <button class="btn btn-primary btn-circle"><i class="fas fa-edit"></i></button>
                                                 <button class="btn btn-danger btn-circle"><i class="fas fa-trash"></i></button>
@@ -189,7 +167,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="login.php">Logout</a>
                 </div>
             </div>
         </div>

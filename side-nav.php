@@ -11,22 +11,22 @@
 
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
-    
+
     <!-- Nav Item - Pages Collapse Menu -->
-    
+
     <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="admin-dashboard.php" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Dashboard</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="buttons.html">Applicants</a>
-                        <a class="collapse-item" href="admin-jobs.php">Jobs</a>
-                    </div>
-                </div>
-            </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="admin-dashboard.php" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <i class="fas fa-fw fa-cog"></i>
+            <span>Dashboard</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="admin-applicants.php">Applicants <span class="badge badge-danger">150</span></a>
+                <a class="collapse-item" href="admin-jobs.php">Jobs <span class="badge badge-danger">2000</span></a>
+            </div>
+        </div>
+    </li>
     <li class="nav-item">
         <a class="nav-link" href="#">
             <i class="fas fa-fw fa-file"></i>
@@ -42,7 +42,7 @@
             <i class="fas fa-fw fa-bell"></i>
             <span>Notifier</span></a>
     </li>
-    
+
     <!-- Divider -->
     <hr class="sidebar-divider">
 
