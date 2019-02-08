@@ -54,11 +54,11 @@
 
                         <!-- Applicants -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card border-left-danger shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="mb-1"><a class="text-s font-weight-bold text-primary text-uppercase" href="admin-applicants.php">Applicants</a></div>
+                                            <div class="mb-1"><a class="text-s font-weight-bold text-danger text-uppercase" href="admin-applicants.php">Applicants</a></div>
                                                 <div class="h5 mb-0 font-weight-bold text-gray-800">150</div>
                                         </div>
                                         <div class="col-auto">
@@ -71,11 +71,11 @@
                         
                         <!-- Jobs -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
+                            <div class="card border-left-danger shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="mb-1"><a class="text-s font-weight-bold text-success text-uppercase" href="admin-jobs.php">Jobs</a></div>
+                                            <div class="mb-1"><a class="text-s font-weight-bold text-danger text-uppercase" href="admin-jobs.php">Jobs</a></div>
                                                 <div class="h5 mb-0 font-weight-bold text-gray-800">2000</div>
                                         </div>
                                         <div class="col-auto">
@@ -159,7 +159,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-danger" href="login.html">Logout</a>
                 </div>
             </div>
         </div>
