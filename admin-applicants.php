@@ -146,23 +146,26 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Create Job</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Add Applicant</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Job Title" aria-label="Job Title" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="First Name">
                     </div>
                     <div class="input-group mb-3">
-                        <textarea class="form-control" placeholder="Job Description" aria-label="Job Description"></textarea>
+                        <input type="text" class="form-control" placeholder="Last Name">
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Job Location" aria-label="Job Location" aria-describedby="basic-addon1">
+                        <input type="email" class="form-control" placeholder="Email Address">
                     </div>
                     <div class="input-group mb-3">
-                        <textarea class="form-control" placeholder="Job Qualifications" aria-label="Job Qualifications"></textarea>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Contact Number">
                     </div>
                 </div>
                 <div class="modal-footer">
