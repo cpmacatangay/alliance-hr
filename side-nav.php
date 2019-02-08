@@ -28,7 +28,7 @@
         </div>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="admin-resume.php">
             <i class="fas fa-fw fa-file"></i>
             <span>Resume Bank</span></a>
     </li>

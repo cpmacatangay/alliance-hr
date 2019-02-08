@@ -46,7 +46,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Resume Bank</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -57,58 +57,47 @@
                     <!-- DataTables Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3 d-sm-flex align-items-center justify-content-between">
-                            <h6 class="m-0 font-weight-bold text-danger">Jobs List</h6>
-
-                            <button type="button" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" data-toggle="modal" data-target="#exampleModal">
-                                <i class="fas fa-plus fa-sm text-white-50"></i> Create Job</a>
-                            </button>
+                            <h6 class="m-0 font-weight-bold text-danger">Resume List</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered text-center" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
+                                            <th>Date Applied</th>
                                             <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
+                                            <th>Email</th>
+                                            <th>Position Applied</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
 
                                     <tbody>
                                         <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>System Architect</td>
-                                            <td>Edinburgh</td>
-                                            <td>61</td>
                                             <td>2011/04/25</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>Edinburgh</td>
+                                            <td>System Architect</td>
                                             <td>
-                                                <button class="btn btn-primary btn-circle"><i class="fas fa-edit"></i></button>
-                                                <button class="btn btn-danger btn-circle"><i class="fas fa-trash"></i></button>
+                                                <button class="btn btn-danger"><i class="fas fa-file-download"></i> Download Resume</button>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>63</td>
-                                            <td>2011/07/25</td>
+                                            <td>2011/04/25</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>Edinburgh</td>
+                                            <td>System Architect</td>
                                             <td>
-                                                <button class="btn btn-primary btn-circle"><i class="fas fa-edit"></i></button>
-                                                <button class="btn btn-danger btn-circle"><i class="fas fa-trash"></i></button>
+                                                <button class="btn btn-danger"><i class="fas fa-file-download"></i> Download Resume</button>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Ashton Cox</td>
-                                            <td>Junior Technical Author</td>
-                                            <td>San Francisco</td>
-                                            <td>66</td>
-                                            <td>2009/01/12</td>
+                                            <td>2011/04/25</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>Edinburgh</td>
+                                            <td>System Architect</td>
                                             <td>
-                                                <button class="btn btn-primary btn-circle"><i class="fas fa-edit"></i></button>
-                                                <button class="btn btn-danger btn-circle"><i class="fas fa-trash"></i></button>
+                                                <button class="btn btn-danger"><i class="fas fa-file-download"></i> Download Resume</button>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -189,7 +178,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-danger" href="login.html">Logout</a>
                 </div>
             </div>
         </div>
